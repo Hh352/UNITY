@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liên hệ - UNITY FURNITURE</title>
+  <meta name="description" content="Liên hệ với UNITY FURNITURE để nhận tư vấn thiết kế và thi công nội thất.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="UNITY FURNITURE">
+        <img src="assets/images/UNITY-FURNITURE-logo-final.png" alt="UNITY FURNITURE">
+      </a>
+
+      <nav class="main-nav" aria-label="Menu chính">
+        <a class="nav-link" href="index.html">Trang chủ</a>
+        <a class="nav-link" href="about.html">Giới thiệu</a>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="services.html">
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dịch vụ">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="styles.html">
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Phong cách thiết kế">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="projects.html">
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dự án">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="blog.html">Bài viết</a>
+        <a class="nav-link is-active" href="contact.html">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone-button" href="tel:0905131030">
+          <i data-lucide="phone-call" aria-hidden="true"></i>
+          <span>0905 131 030</span>
+        </a>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" data-menu-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+      <nav aria-label="Menu di động">
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a href="blog.html">Bài viết</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+      <a class="phone-button mobile-phone" href="tel:0905131030">
+        <i data-lucide="phone-call" aria-hidden="true"></i>
+        <span>Gọi 0905 131 030</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-section">
+      <div class="container contact-container">
+        
+        <!-- Left Column: Form -->
+        <div class="contact-form-column">
+          <h1 class="contact-title">Liên hệ</h1>
+          
+          <form class="contact-form" action="#" method="POST">
+            <!-- Họ và tên -->
+            <div class="form-group">
+              <input type="text" id="fullname" name="fullname" class="form-input" placeholder="Họ và tên *" required>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email *" required>
+            </div>
+            
+            <!-- Địa chỉ -->
+            <div class="form-group">
+              <input type="text" id="address" name="address" class="form-input" placeholder="Địa chỉ *" required>
+              <span class="form-subtext">Quận - Thành phố</span>
+            </div>
+            
+            <!-- Diện tích -->
+            <div class="form-group">
+              <input type="text" id="area" name="area" class="form-input" placeholder="Diện tích">
+            </div>
+            
+            <!-- Loại hình dự án -->
+            <div class="form-group">
+              <label for="project_type" class="form-label">Loại hình dự án</label>
+              <select id="project_type" name="project_type" class="form-select">
+                <option value="" disabled selected>Vui lòng chọn</option>
+                <option value="Nhà Phố">Nhà Phố</option>
+                <option value="Căn hộ">Căn hộ</option>
+                <option value="Biệt thự">Biệt thự</option>
+                <option value="Văn phòng">Văn phòng</option>
+                <option value="Thi công thực tế">Thi công thực tế</option>
+                <option value="Nội thất căn hộ">Nội thất căn hộ</option>
+                <option value="Nội thất văn phòng">Nội thất văn phòng</option>
+                <option value="Nội thất nhà phố">Nội thất nhà phố</option>
+                <option value="Cafe - Nhà hàng - Khách sạn">Cafe - Nhà hàng - Khách sạn</option>
+              </select>
+            </div>
+            
+            <!-- Upload -->
+            <div class="form-group">
+              <label class="form-label">Upload Mặt Bằng</label>
+              <div class="upload-area">
+                <input type="file" id="floor_plan" name="floor_plan" class="upload-input" accept="image/*,.pdf">
+                <div class="upload-content">
+                  <i data-lucide="folder" class="upload-icon"></i>
+                  <span>Click or drag a file to this area to upload</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Ngân sách -->
+            <div class="form-group">
+              <label for="budget" class="form-label">Ngân sách</label>
+              <select id="budget" name="budget" class="form-select">
+                <option value="" disabled selected>Vui lòng chọn</option>
+                <option value="Dưới 500 triệu">Dưới 500 triệu</option>
+                <option value="500 triệu - 1 tỷ">500 triệu - 1 tỷ</option>
+                <option value="1 tỷ - 3 tỷ">1 tỷ - 3 tỷ</option>
+                <option value="trên 3 tỷ">trên 3 tỷ</option>
+              </select>
+            </div>
+            
+            <!-- Phong cách thiết kế -->
+            <div class="form-group">
+              <label for="style" class="form-label">Phong cách thiết kế</label>
+              <select id="style" name="style" class="form-select">
+                <option value="" disabled selected>Phong cách thiết kế của bạn là gì</option>
+                <option value="hiện đại sang trọng">phong cách nội thất hiện đại sang trọng</option>
+                <option value="Nhật Bản">Phong cách thiết kế Nhật Bản</option>
+                <option value="Indochine">Phong cách nội thất Indochine</option>
+                <option value="Neo Classic">Phong cách thiết kế nội thất Neo Classic</option>
+                <option value="vintage">Phong cách nội thất vintage</option>
+              </select>
+            </div>
+            
+            <button type="submit" class="contact-submit-btn">Nhận tư vấn ngay</button>
+          </form>
+        </div>
+        
+        <!-- Right Column: Images -->
+        <div class="contact-image-column">
+          <div class="contact-image-placeholder">
+            <span>Ảnh</span>
+          </div>
+          <div class="contact-image-placeholder">
+            <span>Ảnh</span>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html" aria-label="UNITY FURNITURE">
+          <img src="assets/images/logo-am-ban.png" alt="UNITY FURNITURE">
+        </a>
+        <p>Thiết kế, sản xuất và thi công nội thất trọn gói với quy trình rõ ràng, vật liệu chuẩn và đội ngũ triển khai đồng bộ.</p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Liên hệ</h2>
+        <ul class="footer-contact">
+          <li>
+            <i data-lucide="phone" aria-hidden="true"></i>
+            <a href="tel:0905131030">0905 131 030</a>
+          </li>
+          <li>
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <a href="mailto:info@unityfurniture.vn">info@unityfurniture.vn</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            <span>Địa chỉ trụ sở chính: 230 Hoàng Thế Thiện, Phường Hòa Xuân, Thành phố Đà Nẵng</span>
+          </li>
+          <li>
+            <i data-lucide="factory" aria-hidden="true"></i>
+            <span>Nhà máy sản xuất: KCN Trảng Nhật, Phường Điện Bàn Bắc, Thành phố Đà Nẵng</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Dịch vụ</h2>
+        <ul>
+          <li><a href="services.html#design">Thiết kế nội thất</a></li>
+          <li><a href="services.html#construction">Thi công trọn gói</a></li>
+          <li><a href="services.html#production">Sản xuất theo yêu cầu</a></li>
+          <li><a href="services.html#processing">Gia công nội thất</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Theo dõi</h2>
+        <a class="footer-fanpage" href="https://www.facebook.com/UNITYFurnitureVietnam" target="_blank" rel="noopener" aria-label="Mở fanpage UNITY Furniture Vietnam">
+          <img src="assets/images/fanpage.png" alt="Fanpage UNITY Furniture Vietnam" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 UNITY FURNITURE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#" aria-label="Lên đầu trang">
+    <i data-lucide="arrow-up" aria-hidden="true"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

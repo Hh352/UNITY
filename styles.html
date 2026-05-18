@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phong cách thiết kế - UNITY FURNITURE</title>
+  <meta name="description" content="Khám phá các phong cách thiết kế nội thất tại UNITY FURNITURE.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="UNITY FURNITURE">
+        <img src="assets/images/UNITY-FURNITURE-logo-final.png" alt="UNITY FURNITURE">
+      </a>
+
+      <nav class="main-nav" aria-label="Menu chính">
+        <a class="nav-link" href="index.html">Trang chủ</a>
+        <a class="nav-link" href="about.html">Giới thiệu</a>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="services.html">
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dịch vụ">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link is-active" href="styles.html">
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Phong cách thiết kế">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="projects.html">
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dự án">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="blog.html">Bài viết</a>
+        <a class="nav-link" href="contact.html">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone-button" href="tel:0905131030">
+          <i data-lucide="phone-call" aria-hidden="true"></i>
+          <span>0905 131 030</span>
+        </a>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" data-menu-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+      <nav aria-label="Menu di động">
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a href="blog.html">Bài viết</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+      <a class="phone-button mobile-phone" href="tel:0905131030">
+        <i data-lucide="phone-call" aria-hidden="true"></i>
+        <span>Gọi 0905 131 030</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="styles-hero">
+      <img src="https://i.pinimg.com/1200x/f5/36/26/f536263bd90eb76600ad2e8516095de5.jpg" alt="Phong cách thiết kế nội thất UNITY FURNITURE">
+    </section>
+
+    <section class="styles-intro">
+      <div class="container">
+        <div class="styles-intro-card">
+          <h2>Phong cách thiết kế</h2>
+          <div class="styles-intro-accent"></div>
+          <p>Phong cách thiết kế nội thất không chỉ phản ánh gu thẩm mỹ cá nhân mà còn tiết lộ nội tâm, lối sống và sự chú trọng thẩm mỹ của chủ sở hữu. Khi giá trị của một tổ ấm không còn gói gọn trong định nghĩa sử dụng mà còn liên quan đến giá trị tinh thần, tính cá nhân hóa thì một phong cách thiết kế nội thất phù hợp sẽ là chìa khóa mở ra không gian sống hoàn mỹ.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="styles-grid-section">
+      <div class="container styles-grid">
+        <article class="style-card" id="modern">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Phong cách nội thất hiện đại sang trọng" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Phong cách</span>
+            <h3 class="style-card__title">Tìm hiểu về phong cách nội thất hiện đại sang trọng</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card" id="neo-classic">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Phong cách thiết kế nội thất tân cổ điển Neo Classic" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Phong cách</span>
+            <h3 class="style-card__title">Phong cách thiết kế nội thất tân cổ điển – Neo Classic – Tìm hiểu A-Z</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card" id="indochine">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Phong cách nội thất Indochine Đông Dương" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Phong cách</span>
+            <h3 class="style-card__title">Phong cách nội thất Indochine (Đông Dương): sự giao thoa bản sắc</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card" id="japandi">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Phong cách thiết kế nội thất Nhật Bản Japandi" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Phong cách</span>
+            <h3 class="style-card__title">Phong cách thiết kế Nhật Bản - vẻ đẹp của sự tối giản</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Phong cách nội thất vintage" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Phong cách</span>
+            <h3 class="style-card__title">Phong cách nội thất vintage – sự mới lạ nằm trong nét cổ xưa</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Nội thất căn hộ cao cấp" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Căn hộ</span>
+            <h3 class="style-card__title">Nội thất căn hộ cao cấp - Tiêu chí và những mẫu nội thất đẹp, sang trọng</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Thiết kế nội thất nhà phố đẹp" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Nhà phố</span>
+            <h3 class="style-card__title">Thiết kế nội thất nhà phố đẹp - giá tốt tại xưởng</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Công trình thực tế UNITY FURNITURE" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Dự án</span>
+            <h3 class="style-card__title">Công trình thực tế - Công ty cổ phần Thiết kế & Thi công nội thất UNITY FURNITURE</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="style-card">
+          <img src="https://i.pinimg.com/1200x/73/3c/57/733c57567895ce02b283baa19820aa1a.jpg" alt="Dịch vụ thiết kế nội thất văn phòng Đà Nẵng" loading="lazy">
+          <div class="style-card__body">
+            <span class="style-card__tag">Văn phòng</span>
+            <h3 class="style-card__title">Dịch vụ thiết kế nội thất văn phòng số 1 tại Đà Nẵng</h3>
+            <a href="#" class="style-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html" aria-label="UNITY FURNITURE">
+          <img src="assets/images/logo-am-ban.png" alt="UNITY FURNITURE">
+        </a>
+        <p>Thiết kế, sản xuất và thi công nội thất trọn gói với quy trình rõ ràng, vật liệu chuẩn và đội ngũ triển khai đồng bộ.</p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Liên hệ</h2>
+        <ul class="footer-contact">
+          <li>
+            <i data-lucide="phone" aria-hidden="true"></i>
+            <a href="tel:0905131030">0905 131 030</a>
+          </li>
+          <li>
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <a href="mailto:info@unityfurniture.vn">info@unityfurniture.vn</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            <span>Địa chỉ trụ sở chính: 230 Hoàng Thế Thiện, Phường Hòa Xuân, Thành phố Đà Nẵng</span>
+          </li>
+          <li>
+            <i data-lucide="factory" aria-hidden="true"></i>
+            <span>Nhà máy sản xuất: KCN Trảng Nhật, Phường Điện Bàn Bắc, Thành phố Đà Nẵng</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Dịch vụ</h2>
+        <ul>
+          <li><a href="services.html#design">Thiết kế nội thất</a></li>
+          <li><a href="services.html#construction">Thi công trọn gói</a></li>
+          <li><a href="services.html#production">Sản xuất theo yêu cầu</a></li>
+          <li><a href="services.html#processing">Gia công nội thất</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Theo dõi</h2>
+        <a class="footer-fanpage" href="https://www.facebook.com/UNITYFurnitureVietnam" target="_blank" rel="noopener" aria-label="Mở fanpage UNITY Furniture Vietnam">
+          <img src="assets/images/fanpage.png" alt="Fanpage UNITY Furniture Vietnam" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 UNITY FURNITURE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#" aria-label="Lên đầu trang">
+    <i data-lucide="arrow-up" aria-hidden="true"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

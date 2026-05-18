@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dịch vụ - UNITY FURNITURE</title>
+  <meta name="description" content="Dịch vụ thiết kế, sản xuất và thi công nội thất trọn gói cho nhà phố, căn hộ, biệt thự và văn phòng tại UNITY FURNITURE.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="UNITY FURNITURE">
+        <img src="assets/images/UNITY-FURNITURE-logo-final.png" alt="UNITY FURNITURE">
+      </a>
+
+      <nav class="main-nav" aria-label="Menu chính">
+        <a class="nav-link" href="index.html">Trang chủ</a>
+        <a class="nav-link" href="about.html">Giới thiệu</a>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link is-active" href="services.html">
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dịch vụ">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="styles.html">
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Phong cách thiết kế">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="nav-item has-submenu">
+          <a class="nav-link" href="projects.html">
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="submenu" aria-label="Dự án">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="blog.html">Bài viết</a>
+        <a class="nav-link" href="contact.html">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone-button" href="tel:0905131030">
+          <i data-lucide="phone-call" aria-hidden="true"></i>
+          <span>0905 131 030</span>
+        </a>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" data-menu-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+      <nav aria-label="Menu di động">
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dịch vụ</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="services.html#design">Thiết kế nội thất</a>
+            <a href="services.html#construction">Thi công trọn gói</a>
+            <a href="services.html#production">Sản xuất theo yêu cầu</a>
+            <a href="services.html#processing">Gia công nội thất</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Phong cách thiết kế</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="styles.html#modern">Hiện đại sang trọng</a>
+            <a href="styles.html#japandi">Japandi</a>
+            <a href="styles.html#indochine">Indochine</a>
+            <a href="styles.html#neo-classic">Neo Classic</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-group">
+          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
+            <span>Dự án</span>
+            <i data-lucide="chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="mobile-submenu">
+            <a href="projects.html#apartment">Căn hộ</a>
+            <a href="projects.html#townhouse">Nhà phố</a>
+            <a href="projects.html#villa">Biệt thự</a>
+            <a href="projects.html#office">Văn phòng</a>
+          </div>
+        </div>
+
+        <a href="blog.html">Bài viết</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+      <a class="phone-button mobile-phone" href="tel:0905131030">
+        <i data-lucide="phone-call" aria-hidden="true"></i>
+        <span>Gọi 0905 131 030</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="services-hero-section">
+      <div class="container">
+        <figure class="services-hero-media">
+          <img src="assets/images/img14.jpg" alt="Không gian nội thất hoàn thiện bởi UNITY FURNITURE">
+          <figcaption>
+            <h1>Thiết kế và thi công nội thất trọn gói</h1>
+            <p>Nhà phố, căn hộ, biệt thự, văn phòng</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="services-overview-section" id="services-overview">
+      <div class="container">
+        <div class="services-overview-card">
+          <h2>Dịch vụ</h2>
+          <p><strong>Để đáp ứng nhu cầu của khách hàng, UNITY FURNITURE cung cấp những dịch vụ như:</strong> Gia công nội thất cho các công ty xây dựng, thiết kế nội thất (2D, 3D), thi công nội thất trọn gói, sản xuất nội thất theo yêu cầu tại xưởng, thi công hoàn thiện (gỗ, decor, ánh sáng...), setup nội thất cho căn hộ, nhà phố, biệt thự, văn phòng tại Đà Nẵng, miền trung và nhiều tỉnh thành khác.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-groups-section" id="service-groups">
+      <div class="container">
+        <article class="service-group" id="design">
+          <div class="service-group-heading">
+            <h2>Dịch vụ thiết kế nội thất</h2>
+          </div>
+          <div class="service-group-grid">
+            <a class="service-group-item" href="service-design.html#apartment">
+              <img src="https://static2.cafeland.vn/static01/sgd/news/2020/12/ban-can-ho-chung-cu-binh-thanh-tp-ho-chi-minh-1607585328-nhadat.cafeland.vn.jpg" alt="Thiết kế nội thất căn hộ UNITY FURNITURE" loading="lazy">
+              <span>Thiết kế căn hộ</span>
+            </a>
+            <a class="service-group-item" href="service-design.html#townhouse">
+              <img src="https://giabaohouse.com/upload/filemanager/LAN_5/THANG_1/news/cac-mau-thiet-ke-nha-pho%20(3).jpg" alt="Thiết kế nội thất nhà phố UNITY FURNITURE" loading="lazy">
+              <span>Thiết kế nhà phố</span>
+            </a>
+            <a class="service-group-item" href="service-design.html#villa">
+              <img src="https://xaydungnhatrang.net/wp-content/uploads/2024/12/thiet-ke-biet-thu-nha-trang.webp" alt="Thiết kế nội thất biệt thự UNITY FURNITURE" loading="lazy">
+              <span>Thiết kế biệt thự</span>
+            </a>
+            <a class="service-group-item" href="service-design.html#office">
+              <img src="https://timioffice.vn/wp-content/uploads/2025/03/thiet-ke-noi-that-van-phong-5.jpg" alt="Thiết kế nội thất văn phòng UNITY FURNITURE" loading="lazy">
+              <span>Thiết kế văn phòng</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="service-group" id="construction">
+          <div class="service-group-heading">
+            <h2>Dịch vụ thi công trọn gói</h2>
+          </div>
+          <div class="service-group-grid">
+            <a class="service-group-item" href="service-construction.html#apartment">
+              <img src="assets/images/01.jpg" alt="Thi công nội thất căn hộ UNITY FURNITURE" loading="lazy">
+              <span>Thi công căn hộ</span>
+            </a>
+            <a class="service-group-item" href="service-construction.html#townhouse">
+              <img src="assets/images/02.png" alt="Thi công nội thất nhà phố UNITY FURNITURE" loading="lazy">
+              <span>Thi công nhà phố</span>
+            </a>
+            <a class="service-group-item" href="service-construction.html#villa">
+              <img src="assets/images/03.jpg" alt="Thi công nội thất biệt thự UNITY FURNITURE" loading="lazy">
+              <span>Thi công biệt thự</span>
+            </a>
+            <a class="service-group-item" href="service-construction.html#office">
+              <img src="assets/images/04.png" alt="Thi công nội thất văn phòng UNITY FURNITURE" loading="lazy">
+              <span>Thi công văn phòng</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="service-group" id="production">
+          <div class="service-group-heading">
+            <h2>Dịch vụ sản xuất nội thất theo yêu cầu</h2>
+          </div>
+          <div class="service-group-grid">
+            <a class="service-group-item" href="service-production.html#kitchen">
+              <img src="assets/images/05.webp" alt="Sản xuất tủ bếp tại xưởng UNITY FURNITURE" loading="lazy">
+              <span>Tủ bếp</span>
+            </a>
+            <a class="service-group-item" href="service-production.html#wardrobe">
+              <img src="assets/images/06.jpg" alt="Sản xuất tủ áo tại xưởng UNITY FURNITURE" loading="lazy">
+              <span>Tủ áo</span>
+            </a>
+            <a class="service-group-item" href="service-production.html#loose-furniture">
+              <img src="assets/images/07.jpg" alt="Sản xuất nội thất rời tại xưởng UNITY FURNITURE" loading="lazy">
+              <span>Nội thất rời</span>
+            </a>
+            <a class="service-group-item" href="service-production.html#custom">
+              <img src="assets/images/08.jpg" alt="Sản xuất nội thất theo mẫu tại UNITY FURNITURE" loading="lazy">
+              <span>Sản phẩm theo mẫu</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="service-group" id="processing">
+          <div class="service-group-heading">
+            <h2>Dịch vụ gia công nội thất</h2>
+          </div>
+          <div class="service-group-grid">
+            <a class="service-group-item" href="service-processing.html#woodwork">
+              <img src="assets/images/09.jpg" alt="Gia công gỗ nội thất UNITY FURNITURE" loading="lazy">
+              <span>Gia công gỗ</span>
+            </a>
+            <a class="service-group-item" href="service-processing.html#cnc">
+              <img src="assets/images/10.webp" alt="Gia công CNC theo bản vẽ UNITY FURNITURE" loading="lazy">
+              <span>CNC theo bản vẽ</span>
+            </a>
+            <a class="service-group-item" href="service-processing.html#painting">
+              <img src="assets/images/11.webp" alt="Sơn hoàn thiện nội thất UNITY FURNITURE" loading="lazy">
+              <span>Sơn hoàn thiện</span>
+            </a>
+            <a class="service-group-item" href="service-processing.html#partner">
+              <img src="assets/images/12.jpg" alt="Gia công nội thất cho đối tác UNITY FURNITURE" loading="lazy">
+              <span>Gia công cho đối tác</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="service-detail-intro-section" id="service-detail-intro">
+      <div class="container">
+        <div class="service-detail-copy">
+          <p>Hiểu rõ hơn về các dịch vụ thiết kế và thi công tại UNITY FURNITURE là nơi tổng hợp đầy đủ các giải pháp thiết kế và thi công nội thất dành cho nhà ở, biệt thự, căn hộ, văn phòng và các công trình thương mại. Với mong muốn mang đến trải nghiệm chuyên nghiệp, rõ ràng và thuận tiện cho khách hàng, chúng tôi xây dựng hệ thống dịch vụ chi tiết giúp khách hàng dễ dàng tìm hiểu, lựa chọn và định hướng không gian phù hợp với nhu cầu và ngân sách của mình.</p>
+
+          <a class="service-topic-banner" href="service-design.html" aria-label="Xem chủ đề dịch vụ trong thiết kế nội thất">
+            <img src="assets/images/img15.jpg" alt="Chủ đề dịch vụ trong thiết kế nội thất UNITY FURNITURE" loading="lazy">
+          </a>
+
+          <p>Tại Unity Furniture, chúng tôi hiểu rằng mỗi không gian đều mang dấu ấn và phong cách sống riêng của từng khách hàng. Vì vậy, các dịch vụ luôn được phát triển đa dạng và linh hoạt, từ thiết kế nội thất, thi công hoàn thiện, sản xuất nội thất theo yêu cầu đến thi công trọn gói. Mỗi hạng mục đều được trình bày rõ ràng về quy trình thực hiện, phạm vi công việc, chi phí và hình ảnh thực tế nhằm giúp khách hàng dễ dàng theo dõi và yên tâm trong suốt quá trình triển khai.</p>
+
+          <p>Với lợi thế sở hữu xưởng sản xuất trực tiếp cùng đội ngũ kiến trúc sư, kỹ sư và thợ thi công giàu kinh nghiệm, Unity Furniture cam kết mang đến những không gian hiện đại, tối ưu công năng, đảm bảo chất lượng, đúng tiến độ và tối ưu chi phí. Chúng tôi luôn đồng hành cùng khách hàng từ ý tưởng ban đầu đến khi hoàn thiện công trình, tận tâm trong từng chi tiết để tạo nên những không gian sống và làm việc bền vững, thẩm mỹ và đầy cảm hứng.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-cta-section" id="consultation">
+      <div class="container">
+        <div class="services-cta-panel">
+          <h2>Sẵn sàng bắt đầu dự án nội thất của bạn?</h2>
+          <p>UNITY FURNITURE đồng hành từ tư vấn ý tưởng, thiết kế, sản xuất đến thi công hoàn thiện.</p>
+          <a class="services-cta-button" href="contact.html">
+            <i data-lucide="calendar-check" aria-hidden="true"></i>
+            <span>Đặt lịch tư vấn ngay</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="index.html" aria-label="UNITY FURNITURE">
+          <img src="assets/images/logo-am-ban.png" alt="UNITY FURNITURE">
+        </a>
+        <p>Thiết kế, sản xuất và thi công nội thất trọn gói với quy trình rõ ràng, vật liệu chuẩn và đội ngũ triển khai đồng bộ.</p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Liên hệ</h2>
+        <ul class="footer-contact">
+          <li>
+            <i data-lucide="phone" aria-hidden="true"></i>
+            <a href="tel:0905131030">0905 131 030</a>
+          </li>
+          <li>
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <a href="mailto:info@unityfurniture.vn">info@unityfurniture.vn</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            <span>Địa chỉ trụ sở chính: 230 Hoàng Thế Thiện, Phường Hòa Xuân, Thành phố Đà Nẵng</span>
+          </li>
+          <li>
+            <i data-lucide="factory" aria-hidden="true"></i>
+            <span>Nhà máy sản xuất: KCN Trảng Nhật, Phường Điện Bàn Bắc, Thành phố Đà Nẵng</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Dịch vụ</h2>
+        <ul>
+          <li><a href="services.html#design">Thiết kế nội thất</a></li>
+          <li><a href="services.html#construction">Thi công trọn gói</a></li>
+          <li><a href="services.html#production">Sản xuất theo yêu cầu</a></li>
+          <li><a href="services.html#processing">Gia công nội thất</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h2>Theo dõi</h2>
+        <a class="footer-fanpage" href="https://www.facebook.com/UNITYFurnitureVietnam" target="_blank" rel="noopener" aria-label="Mở fanpage UNITY Furniture Vietnam">
+          <img src="assets/images/fanpage.png" alt="Fanpage UNITY Furniture Vietnam" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 UNITY FURNITURE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#" aria-label="Lên đầu trang">
+    <i data-lucide="arrow-up" aria-hidden="true"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
