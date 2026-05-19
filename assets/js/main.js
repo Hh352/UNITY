@@ -238,46 +238,6 @@ function initFixedBottomContactBar() {
   `;
   document.body.insertAdjacentHTML('beforeend', barHTML);
 }
-
-function initBlogFilter() {
-  const cats = document.querySelectorAll('.sidebar-cat');
-  const cards = document.querySelectorAll('.blog-card');
-  const titleEl = document.getElementById('blog-category-title');
-  const labelMap = {
-    'all': 'Tất cả bài viết',
-    'phong-thuy': 'Phong thủy',
-    'phong-cach': 'Phong cách thiết kế',
-    'kinh-nghiem': 'Kinh nghiệm xây nhà',
-    'cong-trinh': 'Công trình thực tế'
-  };
-
-  if (!cats.length || !cards.length) return;
-
-  cats.forEach(cat => {
-    cat.addEventListener('click', (e) => {
-      e.preventDefault();
-      const filter = cat.dataset.filter;
-
-      // đổi title
-      if (titleEl && labelMap[filter]) {
-        titleEl.textContent = labelMap[filter];
-      }
-
-      cats.forEach(c => c.classList.remove('is-active'));
-      cat.classList.add('is-active');
-
-      cards.forEach(card => {
-        const category = card.dataset.category;
-        if (filter === 'all' || category === filter) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   initFixedBottomContactBar();
   initLucideIcons();
@@ -288,5 +248,4 @@ document.addEventListener("DOMContentLoaded", () => {
   initTestimonialsSlider();
   initReveal();
   initStatsCounter();
-  initBlogFilter();
 });

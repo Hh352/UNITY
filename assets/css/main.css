@@ -1777,11 +1777,15 @@ button {
 .services-section,
 .process-section,
 .benefits-section,
-.projects-section,
 .testimonials-section,
 .consultation-section {
   padding-top: 76px;
   padding-bottom: 76px;
+}
+
+.projects-section {
+  padding-top: 76px;
+  padding-bottom: 24px;
 }
 
 .intro-section,
@@ -2251,11 +2255,15 @@ button {
   .services-section,
   .process-section,
   .benefits-section,
-  .projects-section,
   .testimonials-section,
   .consultation-section {
     padding-top: 52px;
     padding-bottom: 52px;
+  }
+
+  .projects-section {
+    padding-top: 52px;
+    padding-bottom: 12px;
   }
 
   .benefits-section {
@@ -2803,7 +2811,7 @@ button {
 
 /* --- Factory Section --- */
 .factory-section {
-  padding: clamp(72px, 9vw, 120px) 0;
+  padding: 40px 0 clamp(72px, 9vw, 120px) 0;
   background: #fff;
 }
 
@@ -2912,7 +2920,7 @@ button {
 
 @media (max-width: 767px) {
   .factory-section {
-    padding: 56px 0;
+    padding: 24px 0 56px 0;
   }
 
   .factory-block {
@@ -3953,6 +3961,7 @@ button {
   aspect-ratio: 16/9;
   object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
 
 .post-image figcaption {
@@ -4014,4 +4023,165 @@ button {
     padding: 16px;
     font-size: 14px;
   }
+}
+
+/* =========================
+   Pagination
+========================= */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border);
+  grid-column: 1 / -1; /* Stretch across all grid columns */
+}
+
+.page-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+  background: #fff;
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.page-link:hover:not(.disabled) {
+  color: var(--color-muted-orange);
+  border-color: var(--color-muted-orange);
+  background: rgba(199, 101, 47, 0.04);
+}
+
+.page-link.is-active {
+  color: #fff;
+  background: var(--color-muted-orange);
+  border-color: var(--color-muted-orange);
+  box-shadow: 0 4px 12px rgba(199, 101, 47, 0.24);
+}
+
+.page-link.disabled {
+  color: #c0c0c0;
+  border-color: #eee;
+  background: #fafafa;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.page-link i, .page-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (max-width: 474px){
+    .why-choose-grid h3{
+      font-size: 19px;
+    }
+    .culture-media span{
+      max-width: 100%;
+    }
+      .header-actions .phone-button {
+    min-width: 130px !important;
+  }
+  .system-card img{
+    height: 20px !important;
+  }
+}
+
+/* =========================
+   404 Error Page
+========================= */
+.error-404-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - var(--header-height) - 340px);
+  padding: 80px 24px;
+  background: #ffffff;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.error-404-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.error-404-code {
+  font-size: clamp(100px, 12vw, 150px);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--color-muted-orange);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.error-404-title {
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.error-404-desc {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.error-404-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.error-btn {
+  min-height: 44px;
+  padding: 0 28px;
+  display-inline-flex;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.error-btn-primary {
+  background: var(--color-muted-orange);
+  color: #fff;
+  border: 1px solid var(--color-muted-orange);
+}
+
+.error-btn-primary:hover {
+  background: var(--color-copper);
+  border-color: var(--color-copper);
+  color: #fff;
+}
+
+.error-btn-secondary {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.error-btn-secondary:hover {
+  background: rgba(17, 17, 17, 0.04);
+  color: var(--color-text);
 }
