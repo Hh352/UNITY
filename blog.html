@@ -7,7 +7,7 @@
   <meta name="description" content="Khám phá các bài viết, tin tức nội thất từ UNITY FURNITURE.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css">
   <link rel="stylesheet" href="assets/css/main.css">
@@ -138,60 +138,138 @@
     </section>
 
     <section class="blog-grid-section">
-      <div class="container blog-grid">
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/1200x/c8/41/7f/c8417fcf0e1c193f5a3f14856fa3d8c3.jpg" alt="Mệnh Hỏa hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Phong thủy</span>
-            <h3 class="blog-card__title">Mệnh Hỏa hợp màu gì? Cách thiết kế nội thất cho người mệnh Hỏa theo phong thủy</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+      <div class="container blog-layout">
+        <!-- Cột trái (80%): chứa grid bài viết -->
+        <div class="blog-main-col">
+          <h2 class="blog-category-title" id="blog-category-title">
+            Tất cả bài viết
+          </h2>
+          <div class="blog-posts-grid">
+            <article class="blog-card" data-category="phong-thuy">
+              <a href="blog-menh-hoa.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/1200x/c8/41/7f/c8417fcf0e1c193f5a3f14856fa3d8c3.jpg" alt="Mệnh Hỏa hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Phong thủy</span>
+                <a href="blog-menh-hoa.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Mệnh Hỏa hợp màu gì? Cách thiết kế nội thất cho người mệnh Hỏa theo phong thủy</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Người mệnh Hỏa hợp với những gam màu đỏ, cam, tím và hồng. Khám phá cách ứng dụng màu sắc phong thủy vào thiết kế nội thất để không gian sống thêm vượng khí và hài hòa năng lượng.
+                </p>
+              </div>
+            </article>
 
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/1200x/55/4e/bd/554ebdb7b49a8a89b0f27a31e4716860.jpg" alt="Mệnh Thủy hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Phong thủy</span>
-            <h3 class="blog-card__title">Mệnh Thủy hợp màu gì? Cách thiết kế nội thất cho người mệnh Thủy theo phong thủy</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+            <article class="blog-card" data-category="phong-thuy">
+              <a href="blog-menh-thuy.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/1200x/55/4e/bd/554ebdb7b49a8a89b0f27a31e4716860.jpg" alt="Mệnh Thủy hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Phong thủy</span>
+                <a href="blog-menh-thuy.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Mệnh Thủy hợp màu gì? Cách thiết kế nội thất cho người mệnh Thủy theo phong thủy</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Mệnh Thủy ưa màu xanh dương, xanh đen và trắng. Tìm hiểu cách chọn màu sắc, vật liệu và bố cục nội thất phù hợp để mang lại sự thịnh vượng cho người mang mệnh Thủy.
+                </p>
+              </div>
+            </article>
 
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/736x/cd/72/f3/cd72f3b74e4b6f2555d02884477e5acd.jpg" alt="Mệnh Thổ hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Phong thủy</span>
-            <h3 class="blog-card__title">Mệnh Thổ hợp màu gì? Kỵ màu gì? Cách thiết kế nội thất hợp phong thủy cho người mệnh Thổ</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+            <article class="blog-card" data-category="phong-thuy">
+              <a href="blog-menh-tho-1.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/736x/cd/72/f3/cd72f3b74e4b6f2555d02884477e5acd.jpg" alt="Mệnh Thổ hợp màu gì thiết kế nội thất phong thủy" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Phong thủy</span>
+                <a href="blog-menh-tho-1.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Mệnh Thổ hợp màu gì? Kỵ màu gì? Cách thiết kế nội thất hợp phong thủy cho người mệnh Thổ</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Người mệnh Thổ hợp với tông màu vàng đất, nâu và be. Bài viết giải đáp chi tiết màu hợp, màu kỵ và gợi ý thiết kế nội thất hài hòa phong thủy cho người mang mệnh Thổ.
+                </p>
+              </div>
+            </article>
 
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/736x/0b/8b/c9/0b8bc93affaed0759d3163ca9ac735e6.jpg" alt="Tháng cô hồn có nên xây nhà tháng 7 âm lịch" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Kinh nghiệm</span>
-            <h3 class="blog-card__title">Tháng cô hồn - Có hay không nên xây nhà vào tháng 7 ÂM LỊCH</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+            <article class="blog-card" data-category="kinh-nghiem">
+              <a href="blog-thang-co-hon.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/736x/0b/8b/c9/0b8bc93affaed0759d3163ca9ac735e6.jpg" alt="Tháng cô hồn có nên xây nhà tháng 7 âm lịch" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Kinh nghiệm</span>
+                <a href="blog-thang-co-hon.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Tháng cô hồn - Có hay không nên xây nhà vào tháng 7 ÂM LỊCH</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Tháng 7 âm lịch hay còn gọi là tháng cô hồn luôn khiến nhiều gia chủ e ngại khi muốn xây nhà hay sửa chữa nội thất. Cùng tìm hiểu quan niệm dân gian và góc nhìn thực tế về vấn đề này.
+                </p>
+              </div>
+            </article>
 
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/736x/cd/72/f3/cd72f3b74e4b6f2555d02884477e5acd.jpg" alt="Mệnh Thổ hợp màu gì thiết kế nội thất" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Phong thủy</span>
-            <h3 class="blog-card__title">Mệnh Thổ hợp màu gì? Kỵ màu gì? Cách thiết kế nội thất hợp phong thủy cho người mệnh Thổ</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+            <article class="blog-card" data-category="phong-thuy">
+              <a href="blog-menh-tho-2.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/736x/cd/72/f3/cd72f3b74e4b6f2555d02884477e5acd.jpg" alt="Mệnh Thổ hợp màu gì thiết kế nội thất" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Phong thủy</span>
+                <a href="blog-menh-tho-2.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Mệnh Thổ hợp màu gì? Kỵ màu gì? Cách thiết kế nội thất hợp phong thủy cho người mệnh Thổ</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Khám phá bảng màu phù hợp và những màu cần tránh khi thiết kế nội thất cho người mệnh Thổ. Những gợi ý thực tế giúp không gian sống hài hòa và thuận phong thủy.
+                </p>
+              </div>
+            </article>
 
-        <article class="blog-card">
-          <img src="https://i.pinimg.com/736x/9b/13/4a/9b134a3ae8785f61c0ef40a3260e9c45.jpg" alt="Phục vị là gì hướng nhà phong thủy" loading="lazy">
-          <div class="blog-card__body">
-            <span class="blog-card__tag">Phong thủy</span>
-            <h3 class="blog-card__title">Phục vị là gì? Ý nghĩa & Cách xác định hướng nhà phục vị</h3>
-            <a href="#" class="blog-card__link">Đọc thêm <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+            <article class="blog-card" data-category="phong-thuy">
+              <a href="blog-phuc-vi.html" class="blog-card__image-link">
+                <img src="https://i.pinimg.com/736x/9b/13/4a/9b134a3ae8785f61c0ef40a3260e9c45.jpg" alt="Phục vị là gì hướng nhà phong thủy" loading="lazy">
+              </a>
+              <div class="blog-card__body">
+                <span class="blog-card__tag">Phong thủy</span>
+                <a href="blog-phuc-vi.html" class="blog-card__title-link">
+                  <h3 class="blog-card__title">Phục vị là gì? Ý nghĩa & Cách xác định hướng nhà phục vị</h3>
+                </a>
+                <p class="blog-card__excerpt">
+                  Phục vị là một trong tám hướng quan trọng trong phong thủy nhà ở. Bài viết giúp bạn hiểu rõ ý nghĩa và cách xác định hướng nhà phục vị để chọn hướng xây dựng phù hợp nhất.
+                </p>
+              </div>
+            </article>
           </div>
-        </article>
+        </div>
+
+        <!-- Cột phải (20%): chứa sidebar danh mục -->
+        <aside class="blog-sidebar">
+          <div class="sidebar-widget">
+            <h3 class="sidebar-widget__title">Danh mục bài viết</h3>
+            <ul class="sidebar-categories">
+              <li>
+                <a href="#" class="sidebar-cat is-active" data-filter="all">
+                  <span class="sidebar-cat__name">Tất cả</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="sidebar-cat" data-filter="phong-thuy">
+                  <span class="sidebar-cat__name">Phong thủy</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="sidebar-cat" data-filter="phong-cach">
+                  <span class="sidebar-cat__name">Phong cách thiết kế</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="sidebar-cat" data-filter="kinh-nghiem">
+                  <span class="sidebar-cat__name">Kinh nghiệm xây nhà</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="sidebar-cat" data-filter="cong-trinh">
+                  <span class="sidebar-cat__name">Công trình thực tế</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </section>
   </main>
