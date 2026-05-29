@@ -3675,6 +3675,11 @@ button {
   z-index: 999;
 }
 
+body.menu-open .floating-contact-stack,
+body.menu-open .back-to-top {
+  display: none;
+}
+
 .fbc-btn {
   width: 46px;
   height: 46px;

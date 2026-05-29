@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="vi">
 <head>
   <meta charset="utf-8">
@@ -84,10 +84,12 @@
         <a href="about.html">Giới thiệu</a>
 
         <div class="mobile-nav-group">
-          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
-            <span>Dịch vụ</span>
-            <i data-lucide="chevron-down" aria-hidden="true"></i>
-          </button>
+          <a class="mobile-submenu-toggle" href="services.html" style="padding-right: 0;">
+            <span style="flex-grow: 1;">Dịch vụ</span>
+            <div data-submenu-toggle aria-expanded="false" style="padding: 15px 20px; margin: -15px -20px; display: flex; align-items: center;" onclick="event.preventDefault(); event.stopPropagation();">
+              <i data-lucide="chevron-down" aria-hidden="true"></i>
+            </div>
+          </a>
           <div class="mobile-submenu">
             <a href="services.html#design">Thiết kế nội thất</a>
             <a href="services.html#construction">Thi công trọn gói</a>
@@ -110,10 +112,12 @@
         </div>
 
         <div class="mobile-nav-group">
-          <button class="mobile-submenu-toggle" type="button" aria-expanded="false" data-submenu-toggle>
-            <span>Dự án</span>
-            <i data-lucide="chevron-down" aria-hidden="true"></i>
-          </button>
+          <a class="mobile-submenu-toggle" href="projects.html" style="padding-right: 0;">
+            <span style="flex-grow: 1;">Dự án</span>
+            <div data-submenu-toggle aria-expanded="false" style="padding: 15px 20px; margin: -15px -20px; display: flex; align-items: center;" onclick="event.preventDefault(); event.stopPropagation();">
+              <i data-lucide="chevron-down" aria-hidden="true"></i>
+            </div>
+          </a>
           <div class="mobile-submenu">
             <a href="projects.html#apartment">Căn hộ</a>
             <a href="projects.html#townhouse">Nhà phố</a>
