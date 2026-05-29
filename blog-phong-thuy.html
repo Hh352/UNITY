@@ -215,9 +215,34 @@
                 </a>
               </li>
               <li>
-                <a href="blog-phong-thuy.html" class="sidebar-cat is-active">
+                <a href="blog-phong-thuy.html" class="sidebar-cat is-active" style="display: flex; justify-content: space-between; align-items: center; padding-right: 0;">
                   <span class="sidebar-cat__name">Phong thủy</span>
+                  <div style="cursor: pointer; padding: 0 16px; display: flex; align-items: center; height: 100%;" onclick="event.preventDefault(); const menu = this.parentElement.nextElementSibling; const icon = this.querySelector('[data-lucide]'); const isHidden = menu.style.display === 'none'; menu.style.display = isHidden ? 'flex' : 'none'; icon.setAttribute('data-lucide', isHidden ? 'chevron-up' : 'chevron-down'); if (window.lucide) lucide.createIcons();">
+                    <i data-lucide="chevron-down" style="width: 18px; height: 18px; color: #555;"></i>
+                  </div>
                 </a>
+                <ul style="display: none; list-style: none; padding-left: 12px; margin-top: 8px; flex-direction: column; gap: 8px;">
+                  <li>
+                    <a href="#" class="sidebar-cat">
+                      <span class="sidebar-cat__name" style="font-size: 0.95em; color: #555;">- Phong thủy A</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-cat">
+                      <span class="sidebar-cat__name" style="font-size: 0.95em; color: #555;">- Phong thủy B</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-cat">
+                      <span class="sidebar-cat__name" style="font-size: 0.95em; color: #555;">- Phong thủy C</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sidebar-cat">
+                      <span class="sidebar-cat__name" style="font-size: 0.95em; color: #555;">- Phong thủy D</span>
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="blog-phong-cach.html" class="sidebar-cat">
